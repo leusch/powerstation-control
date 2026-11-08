@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Battery with a lightning bolt. Original artwork, stays inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- battery body -->
+    <path android:strokeColor="#FF121A33" android:strokeWidth="5" android:strokeLineJoin="round"
+        android:fillColor="#B3FFFFFF"
+        android:pathData="M44,32 h20 a8,8 0 0 1 8,8 v34 a8,8 0 0 1 -8,8 h-20 a8,8 0 0 1 -8,-8 v-34 a8,8 0 0 1 8,-8 z"/>
+    <!-- terminal cap -->
+    <path android:fillColor="#FF121A33"
+        android:pathData="M48,23 h12 a2,2 0 0 1 2,2 v4 h-16 v-4 a2,2 0 0 1 2,-2 z"/>
+    <!-- bolt -->
+    <path android:fillColor="#FF3F4FC4" android:strokeColor="#FF3F4FC4" android:strokeWidth="1.5" android:strokeLineJoin="round"
+        android:pathData="M58,42 L47,60 L53.5,60 L50,73 L62,54 L55.5,54 z"/>
+</vector>

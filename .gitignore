@@ -1,0 +1,11 @@
+# Build output and local machine config
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+# Bluetooth captures / logs may contain device addresses and other private data
+*.log
+*.btsnoop
+bugreport*

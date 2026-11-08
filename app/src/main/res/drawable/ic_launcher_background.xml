@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft Zora-style gradient (dusk-100 -> sky-200 -> rose-200). Original artwork. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="0" android:endX="108" android:endY="108">
+                <item android:offset="0.0" android:color="#FFDFE5F9"/>
+                <item android:offset="0.55" android:color="#FFBFE0FA"/>
+                <item android:offset="1.0" android:color="#FFFFC2D8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

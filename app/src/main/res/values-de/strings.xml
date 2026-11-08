@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Powerstation Control</string>
+    <string name="title_main">Powerstation</string>
+    <string name="back">Zurück</string>
+    <string name="settings">Einstellungen</string>
+    <string name="device_fallback">der Powerstation</string>
+    <string name="device_fallback_short">Powerstation</string>
+
+    <string name="reading_data">Lese Daten vom Gerät…</string>
+    <string name="connecting_to">Verbinde mit %1$s…</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="searching">Suche Powerstation…</string>
+    <string name="found_tap">Powerstation gefunden. Tippe sie an.</string>
+    <string name="signal_fmt">Signal: %1$s</string>
+    <string name="signal_very_good">sehr gut</string>
+    <string name="signal_good">gut</string>
+    <string name="signal_weak">schwach</string>
+    <string name="not_found_hint">Ist die Powerstation eingeschaltet und in der Nähe?</string>
+    <string name="show_all_devices">Alle Bluetooth-Geräte zeigen</string>
+    <string name="show_stations_only">Nur Powerstationen zeigen</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="connect_to">Mit %1$s verbinden</string>
+    <string name="search_other">Anderes Gerät suchen</string>
+    <string name="search_station">Powerstation suchen</string>
+    <string name="tip_single_connection">Tipp: Die Powerstation akzeptiert nur eine Verbindung. Schließe die BrightEMS-App, falls sie offen ist.</string>
+
+    <string name="input_label">Eingang</string>
+    <string name="output_label">Ausgang</string>
+    <string name="full_in">Voll in %1$s</string>
+    <string name="runtime_left">Noch %1$s Laufzeit</string>
+    <string name="more_than_days">mehr als %1$d Tage</string>
+    <string name="section_outputs">Ausgänge</string>
+    <string name="section_light">Licht</string>
+    <string name="state_off">Aus</string>
+    <string name="light_on">An</string>
+    <string name="light_sos">SOS</string>
+    <string name="light_flash">Blinken</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_display">Display</string>
+    <string name="display_off_after">Display geht aus nach</string>
+    <string name="settings_battery">Akku schonen</string>
+    <string name="stop_charging_at">Laden stoppen bei</string>
+    <string name="stop_discharging_at">Entladen stoppen bei</string>
+    <string name="settings_connection">Verbindung</string>
+    <string name="connected_to">Verbunden mit %1$s</string>
+    <string name="connecting_short">Verbinde…</string>
+    <string name="searching_short">Suche läuft…</string>
+    <string name="disconnect">Trennen</string>
+    <string name="connect_other">Anderes Gerät verbinden</string>
+    <string name="settings_dev_card">Für Entwickler</string>
+    <string name="dev_options">Entwickleroptionen</string>
+    <string name="dev_hint">Zeigt Rohdaten, ein Änderungs-Log und Hilfen zum Abbilden weiterer Werte.</string>
+
+    <string name="bt_off">Bluetooth ist ausgeschaltet</string>
+    <string name="search_failed">Suche fehlgeschlagen (%1$d)</string>
+    <string name="reconnecting">Verbindung unterbrochen, verbinde neu (%1$d/5)…</string>
+    <string name="connection_lost">Verbindung getrennt. Ist die BrightEMS-App noch offen?</string>
+    <string name="incompatible">Kein kompatibles Gerät (Dienste: %1$s)</string>
+    <string name="cmd_rejected">Das Gerät hat den Befehl abgelehnt</string>
+    <string name="label_display_timeout">Display-Timeout</string>
+    <string name="label_charge_limit">Ladegrenze</string>
+    <string name="label_discharge_limit">Entladegrenze</string>
+    <string name="setting_progress">%1$s wird gesetzt…</string>
+    <string name="setting_done">%1$s: %2$s ✓</string>
+    <string name="setting_mismatch">%1$s: Gerät meldet %2$s statt %3$s</string>
+    <string name="err_timeout_range">Display-Timeout muss zwischen 10 s und 30 min liegen</string>
+    <string name="err_charge_range">Die Ladegrenze muss zwischen %1$d und %2$d %% liegen</string>
+    <string name="err_charge_vs_discharge">Die Ladegrenze muss mindestens %1$d %% über der Entladegrenze (%2$d %%) liegen</string>
+    <string name="err_discharge_range">Die Entladegrenze muss zwischen %1$d und %2$d %% liegen</string>
+    <string name="err_discharge_vs_charge">Die Entladegrenze muss mindestens %1$d %% unter der Ladegrenze (%2$d %%) liegen</string>
+    <string name="no_data_yet">Noch keine Daten vom Gerät</string>
+    <string name="not_switched">%1$s: Das Gerät hat nicht umgeschaltet</string>
+</resources>
